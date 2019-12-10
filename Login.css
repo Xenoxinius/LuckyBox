@@ -1,37 +1,4 @@
 
-.navbar-brand{
-    text-align: center;
- color: white;
-
-}
-
-.nav-link{
-
-
-    color: white;
-    margin-right:  40px;
-    margin-left: 40px;
-
-}
-
-nav{
-    background-color: black;
-
-}
-
-.navbar-nav{
-
-   margin-left: auto;
-    margin-right: auto;
-
-
-}
-
-
-.navbar-toggler{
-    color: red;
-    background-color: red;
-}
 
 form{
     margin-top: 10%;
@@ -44,8 +11,3 @@ form{
     text-align: center;
 }
 
-.facebook-btn{
-    color: #1e7e34;
-
-    background-color: #1e7e34;
-}
