@@ -41,4 +41,11 @@ form{
     width: 50%;
     background-color: lightgoldenrodyellow;
     padding: 30px;
+    text-align: center;
+}
+
+.facebook-btn{
+    color: #1e7e34;
+
+    background-color: #1e7e34;
 }
