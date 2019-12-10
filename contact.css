@@ -1,12 +1,4 @@
-body {
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: sans-serif;
-    margin-top: 40px;
 
-}
 .form{
 
     position: relative;
