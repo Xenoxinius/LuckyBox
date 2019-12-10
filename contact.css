@@ -1,14 +1,14 @@
 body {
     height: 60vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    margin-top: 40px;
 
 }
 .form{
-    width:90%;
+
     position: relative;
 
 
@@ -20,9 +20,20 @@ body {
     border: none;
     color: gray;
     padding-top: 20px;
-    border-bottom: #0c5460 3px solid;
+    border-bottom: #0c5460 1px solid;
     margin-bottom: 20px;
 
+
 }
+
+textarea{
+    resize: none;
+    border-radius: 5px;
+    border-color: #4e555b solid;
+    border: none;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
 
 
