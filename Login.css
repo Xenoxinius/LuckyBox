@@ -23,6 +23,8 @@ nav{
 
    margin-left: auto;
     margin-right: auto;
+
+
 }
 
 .navbar-toggler{
@@ -30,8 +32,11 @@ nav{
     background-color: red;
 }
 .login{
-    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
  border: 1px solid black;
+
 }
