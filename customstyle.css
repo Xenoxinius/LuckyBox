@@ -2,7 +2,26 @@ h1 {
     color: red;
 }
 
+body {
+    background-color: darkgrey;
+}
 .step {
     text-align: center;
     background-color: grey;
+}
+
+#lootlist .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px 0 50px;
+}
+
+
+
+.row img {
+    padding: 10px;
+}
+
+.imgxt {
+    text-align: center;
 }

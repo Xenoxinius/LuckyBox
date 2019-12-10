@@ -23,9 +23,21 @@ nav{
 
    margin-left: auto;
     margin-right: auto;
+
+
 }
 
 .navbar-toggler{
     color: red;
     background-color: red;
+}
+
+form{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
 }
