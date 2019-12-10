@@ -9,13 +9,52 @@
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Lucky Box</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="custom.html">Boxes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Login.html">Login</a>
+                    <a class="dropdown-item" href="register.html">Register</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
 <div class="ml-3">
 <h1 class="text-center pb-4">Customize your box</h1>
 <h2 class="step"> Step 1 </h2>
 <h3> choose your box size</h3>
 </div>
 
-
+<!-- ///////////////////////////////////BEGINNING OF BOX SIZES -->
 <div class="row mt-4 pb-5">
     <!-- 3 large colums with text centered -->
     <div class="col-lg-4 text-center">
@@ -38,6 +77,9 @@
         <p><a class="btn btn-secondary" href="#topics" role="button">pick this one &raquo;</a></p>
     </div>
 </div>
+
+
+<!-- ///////////////////////////////////BEGINNING OF TOPICS -->
 
 <div class="ml-3">
     <h2 class="step"> Step 2</h2>
@@ -67,10 +109,14 @@
     </div>
 </div>
 
+<!-- ///////////////////////////////////BEGINNING OF items -->
+
 <div id="lootlist">
     <h2 class="step ml-3"> Step 3</h2>
     <h3 class="ml-3"> select your items </h3>
-    <div class="row">
+
+
+    <div class="row" id="movierow">
         <div class="imgxt">
         <img  src="img/moviegadget1.jpg" width="200" height="200">
             <div>
@@ -95,22 +141,76 @@
                 <label><input type="checkbox" /> James Bond Q pin</label>
             </div>
         </div>
-
-
-
-
-
     </div>
-    <div class="row">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
-        <img  src="img/hobby.jpg" width="160" height="160">
+
+
+
+    <div class="row" id="snackrow">
+
+        <div class="imgxt">
+            <img  src="img/snack1.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Reese's Pieces</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/snack2.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Poppin Cooking Sushi</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/snack3.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Lays Thai Chili</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/snack4.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Original Beef Jerky</label>
+            </div>
+        </div>
     </div>
+
+
+    <div class="row" id="hobbyrow">
+        <div class="imgxt">
+            <img  src="img/hobby1.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Panthera Ink</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/hobby2.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Loctite super glue</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/hobby3.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> acrylic paint set</label>
+            </div>
+        </div>
+        <div class="imgxt">
+            <img  src="img/hobby4.jpg" width="200" height="200">
+            <div>
+                <label><input type="checkbox" /> Human Limb figure</label>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
 
 </body>
 </html>
