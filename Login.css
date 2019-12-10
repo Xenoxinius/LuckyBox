@@ -29,3 +29,9 @@ nav{
     color: red;
     background-color: red;
 }
+.login{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ border: 1px solid black;
+}
