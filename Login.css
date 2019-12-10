@@ -7,8 +7,10 @@
 
 .nav-link{
 
-    word-spacing: 50px;
+
     color: white;
+    margin-right:  40px;
+    margin-left: 40px;
 
 }
 
@@ -23,3 +25,7 @@ nav{
     margin-right: auto;
 }
 
+.navbar-toggler{
+    color: red;
+    background-color: red;
+}
