@@ -1,0 +1,25 @@
+
+.navbar-brand{
+    text-align: center;
+ color: white;
+
+}
+
+.nav-link{
+
+    word-spacing: 50px;
+    color: white;
+
+}
+
+nav{
+    background-color: black;
+
+}
+
+.navbar-nav{
+
+   margin-left: auto;
+    margin-right: auto;
+}
+
