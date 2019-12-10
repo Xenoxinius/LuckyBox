@@ -4,7 +4,10 @@ body{
     margin: 0;
     padding: 0;
 }
-
+#title{
+    color: #0f6674;
+font-weight: bolder;
+}
 
 .navbar-toggler{
     border:none;
@@ -16,4 +19,20 @@ nav{
 
 #carousel{
     margin-top: -3vmax;
+}
+
+.btn{
+   background-color: #0f6674;
+
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: #0f6674 1px solid;
+    color: #0f6674;
+}
+
+p{
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
 }
