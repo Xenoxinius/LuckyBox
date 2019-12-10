@@ -37,4 +37,10 @@ textarea{
     padding-bottom: 20px;
 }
 
+.img-thumbnail{
+    border: none;
+    width: 20%;
+}
+
+
 
