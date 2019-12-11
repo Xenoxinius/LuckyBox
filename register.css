@@ -1,5 +1,5 @@
 h1{
-
+    color: white;
     text-align: center;
    padding-top: 2%;
 }
@@ -12,5 +12,12 @@ form{
     width: 50%;
     background-color: lightgoldenrodyellow;
     padding: 30px;
+
+}
+body{
+
+    background-image: url("lb.jpg");
+    background-size: 30%;
+
 
 }
