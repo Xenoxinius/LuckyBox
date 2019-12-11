@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="main.css">
 </head>
-</head>
+
 <body>
 <!-- nav bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -50,11 +52,11 @@
 
 <!-- contact form -->
 
-<div class="container container-contact1 ">
+<div class="container container-contact1 mt-10 ">
     <div class="row">
         <div class="col-md-6">
             <div class="form">
-                <form>
+                <form action="https://formspree.io/xaynkalb" method="POST">
 
                     <h1>Contact us!</h1>
                     <p> voice your concerns, or simply drop a nice comment.</p>
@@ -80,7 +82,7 @@
                         <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="short description"></textarea>
                     </div>
 
-                    <button type="button" class="btn btn-info">Submit</button>
+                 <button class="btn" type="submit" value="submit">submit</button>
 
 
                 </form>
@@ -92,36 +94,33 @@
 <!--contact links-->
 
         <div class="col-md-6">
-            <div class="container-fluid d-flex d-inline-flex">
-                <div class="row align-items-end">
-                        <div class="container-icon ">
-                             <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/contact.png"></div>
-                             <div> <h3>Call us!</h3>
-                             <p>+32/4678/568/456</p>
-                             <p>Our customer service is available 24/7</p>
+            <div class="container-fluid">
+                <div class="row d-flex flex-column">
+
+                        <div class=" d-flex flex-row">
+                            <div class="img-thumbnail  ">
+                             <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/contact.png">
+                            </div>
+                             <div>
+                                <h3>Call us!</h3>
+                                <p>+32/4678/568/456</p>
+                                <p>Our customer service is available 24/7</p>
+                             </div>
                         </div>
 
 
-                        <div class="container-icon ">
-                            <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/social-01.png"></div>
-                            <div><h3>Or send an email</h3>
-                            <a href="mailto:info@lucky.box.com">Info@luckybox.com</a> </div>
-
-
-
-
-
-
-                    <div class="container-icon ">
-                        <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/contact.png"></div>
-                    <div> <h3>Call us!</h3>
-                        <p>+32/4678/568/456</p>
-                        <p>Our customer service is available 24/7</p></div>
-
-
+                        <div class="d-flex flex-row">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/social-01.png">
+                            </div>
+                            <div class="email-info">
+                            <h3>Or send us an email</h3>
+                            <a href="mailto:info@lucky.box.com">Info@luckybox.com</a>
+                            </div>
+                        </div>
+                </div>
             </div>
-        </div>
-    </div>
+         </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

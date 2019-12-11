@@ -1,11 +1,11 @@
 
-
-body {
-    background-color: darkgrey;
+#step1box{
+    background-color: #c1d1e8;
 }
+
 .step {
-    text-align: center;
-    background-color: grey;
+    text-align: left;
+padding-right: 2vmax;
 }
 
 #lootlist .row {
