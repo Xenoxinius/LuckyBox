@@ -1,0 +1,19 @@
+
+
+form{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+    text-align: center;
+}
+
+body{
+  background-image: url("../img/background.jpg");
+    background-size: 30%;
+
+
+}

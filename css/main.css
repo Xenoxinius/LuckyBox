@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.titleRed{
+color: darkred;
+font-weight: bolder;
+    padding-right: 10vmax;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+nav{
+    margin-bottom: 3vmax;
+}
+
+#carousel{
+    margin-top: -3vmax;
+}
+
+.btn{
+   background-color: #740716;
+    color:white;
+
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: #74061c 1px solid;
+    color: #740716;
+}
+
+p{
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
+}
+
+.italicfont{
+    font-style: italic;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+}

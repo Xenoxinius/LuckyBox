@@ -1,0 +1,104 @@
+
+.step1box{
+    background-color: #c1d1e8;
+}
+
+
+
+.step {
+    text-align: left;
+padding-right: 2vmax;
+}
+
+.steptitle {
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.stepcount {
+    color: #b69c7c;
+}
+
+.stepdirection {
+    color: #fff5c3;
+    margin-bottom: 50px;
+}
+
+#lootlist .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px 0 50px;
+    margin: auto  ;
+}
+
+
+
+.row img {
+    padding: 10px;
+}
+
+
+.hover01 {
+    text-align: center;
+    overflow: hidden;
+
+}
+.hover01 label {
+    color: #fff5c3
+}
+
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+#movierow {
+
+    width: 70%;
+    margin-left: 30px;
+}
+
+#snackrow {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+#hobbyrow {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel {
+    background-color: #c1d1e8;
+}
+
+#carouselExampleControls {
+    margin: auto;
+}
+label {
+    color: #f5ffb1;
+}
+
+body{
+
+    background-image: url("../img/background.jpg");
+    background-size: 30%;
+}
+
+#boxtitle{
+    color: white;
+}
+
