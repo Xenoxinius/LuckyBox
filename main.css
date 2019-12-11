@@ -4,8 +4,9 @@ body{
     margin: 0;
     padding: 0;
 }
-#title{
-    color: #0f6674;
+
+.titleRed{
+color: #740013;
 font-weight: bolder;
 }
 

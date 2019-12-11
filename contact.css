@@ -1,56 +1,32 @@
 
-.form{
-
-    position: relative;
-
-
-
-}
-.form input{
+ input{
     width:100%;
-    height: 100%;
     border: none;
     color: gray;
     padding-top: 20px;
     border-bottom: #0c5460 1px solid;
     margin-bottom: 20px;
-
-
 }
+
 
 textarea{
     resize: none;
-    border-radius: 5px;
-    border-color: #4e555b solid;
-    border: none;
-    padding: 20px;
-    background-color: #e2e2e2;
-}
 
-.container-icon{
-    width: 30%;
-    display:flex;
-    flex-direction: column;
 }
 
 .email-info{
     padding-bottom: 20px;
 }
 
-.img-thumbnail{
+.img-fluid{
     border: none;
-    width: 20%;
+    width: 10%;
 }
 
 .map{
     width:80%
 }
 
-
-#mainContainer{
-    padding:4vmax;
-
-}
 
 #buttonform{
     margin-bottom: 10vmax;
