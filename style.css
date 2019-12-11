@@ -1,21 +1,42 @@
 
-.container{
-    max-width: 960px;
+.container2{
+    max-width: 100%;
     margin: 0 auto;
     background: #f9f9f9;
     font-size: 24px;
-    padding: 25px;
+    margin-top: -3vmax;
+    padding: 0;
+
 }
 .parallax {
-  background: url("lb.jpg") no-repeat center;
-    background-size: cover;
+  background: url("lb.jpg") ;
+    background-size: 50%;
     background-attachment: fixed;
-    height: 500px;
+    height:400px;
+
 
 
 }
 #information{
+    font-family: birch-std;
     font-size: larger;
     color: darkred;
+    margin-bottom: 20px;
 }
 
+h1{
+    font-family: birch-std;
+    font-size: 500%;
+
+}
+
+.btn {
+    background-color: darkred;
+    color: white;
+    border-color: black;
+}
+.btn:hover{
+    background-color: gray;
+    border-color: black;
+    color: white;
+}
