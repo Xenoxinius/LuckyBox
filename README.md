@@ -9,4 +9,6 @@ The startup is called Lucky box. we provide subscription boxes that are fully cu
 As our customer we give you the power to choose the items yourself to avoid recieving stuff that will end up in the trash eventually.
 
 
+link to the website
 
+https://xenoxinius.github.io/LuckyBox/.
