@@ -18,7 +18,7 @@
 
 }
 #information{
-    font-family: birch-std;
+
     font-size: larger;
     color: darkred;
     margin-bottom: 20px;
@@ -39,4 +39,17 @@ h1{
     background-color: gray;
     border-color: black;
     color: white;
+}
+#warning {
+    width: 500px;
+    border-radius: 50%;
+    border: darkred 3px solid;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+
+}
+.container{
+    margin-top: 50px;
 }
