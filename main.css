@@ -6,8 +6,9 @@ body{
 }
 
 .titleRed{
-color: #740013;
+color: darkred;
 font-weight: bolder;
+    padding-right: 10vmax;
 }
 
 .navbar-toggler{
@@ -23,18 +24,27 @@ nav{
 }
 
 .btn{
-   background-color: #0f6674;
+   background-color: #740716;
     color:white;
 
 }
 
 .btn:hover{
     background-color: white;
-    border-color: #0f6674 1px solid;
-    color: #0f6674;
+    border-color: #74061c 1px solid;
+    color: #740716;
 }
 
 p{
     padding-top: 2vmax;
     padding-bottom: 2vmax;
+}
+
+.italicfont{
+    font-style: italic;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
 }

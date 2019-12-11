@@ -19,24 +19,20 @@
 }
 #information{
 
-    font-size: larger;
-    color: darkgray;
-    width: 500px;
-    border-radius: 1%;
-    border: darkred 3px solid;
+    color: seashell;
+    width: 100%;
     text-align: center;
     padding: 25px;
     align-content: center;
-    margin: auto;
-    background-color: darkred;
 
+    background-color: darkred;
 
 }
 
 h1{
     font-size: 500%;
     color: white;
-    padding-top: 50px;
+    padding-top: 12vmax;
 }
 
 .btn {
@@ -59,6 +55,13 @@ h1{
     margin-right: 30px;
     margin-top: 20px;
 }
-.hdr-2{
 
+
+.introtext{
+    padding-left: 10vmax;
+    padding-right: 10vmax;
+}
+
+.luckyboxtitle{
+    padding-top: 5vmax;
 }
