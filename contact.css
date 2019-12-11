@@ -61,3 +61,9 @@ textarea{
     margin-bottom: 2vmax;
     margin-left: 2vmax;
 }
+
+li .socialmedia{
+    display: inline-flex;
+
+
+}
