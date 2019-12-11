@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Customize</title>
+    <title >Customize</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="customstyle.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
 
   <!-- ///////////////////////////////////BEGINNING OF BOX SIZES -->
 
-<h1 id="title" class="text-left pb-4 pl-2">Customize your box</h1>
+<h1 id="boxtitle" class="text-center pb-4 pl-2">Customize your box</h1>
 
 <div  class="container-fluid">
 <div class="ml-3">
@@ -67,19 +68,19 @@
         <img class="rounded-circle" src="https://mllj2j8xvfl0.i.optimole.com/w:600/h:600/q:90/https://s20206.pcdn.co/wp-content/uploads/sites/119/2016/05/shop9.jpg" alt="Generic placeholder image" width="140" height="140">
         <h2>Small Box</h2>
         <p>A small sized box containing multiple smaller items with less choice options</p>
-        <p><a class="btn btn-secondary" href="#topics" role="button">pick this one &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#2ndStep" role="button">pick this one &raquo;</a></p>
     </div>
     <div class="col-lg-3 col-md-4 col-sm-12 text-center step1box">
         <img class="rounded-circle" src="img/medium-box.png" width="140" height="140">
         <h2>Medium Box</h2>
         <p>An average size box with a decent amount of items from all choice options</p>
-        <p><a class="btn btn-secondary" href="#topics" role="button">pick this one &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#2ndStep" role="button">pick this one &raquo;</a></p>
     </div><!-- /.col-lg-4 text-center -->
     <div class="col-lg-3 col-md-4 col-sm-12 text-center step1box">
         <img class="rounded-circle" src="img/big%20box.jpg" width="140" height="140">
         <h2>Big Box</h2>
         <p>A large sized box containing more items from all choice options </p>
-        <p><a class="btn btn-secondary" href="#topics" role="button">pick this one &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#2ndStep" role="button">pick this one &raquo;</a></p>
     </div>
 </div>
 
@@ -89,7 +90,7 @@
 
 <div class="ml-3">
 
-    <div class="container row steptitle">
+    <div class="container row steptitle" id="2ndStep">
         <h2 class="step stepcount"> Step 2</h2>
         <h2 class="stepdirection">Select the theme you like!</h2>
     </div>
@@ -99,12 +100,12 @@
 
 
 
-<div id="carouselExampleControls" class="carousel slide w-50 topics" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide w-50" data-ride="carousel">
     <div class="carousel-inner ">
         <div class="carousel-item active">
             <img class="d-block w-auto" src="img/moviebanner.jpg" height="300px" alt="First slide">
                 <div class="carousel-caption">
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Movies</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#movierow" role="button">Movies</a></p>
                 </div>
         </div>
         <div class="carousel-item">
@@ -112,7 +113,7 @@
 
                 <div class="carousel-caption">
 
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Snacks</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#snackrow" role="button">Snacks</a></p>
                 </div>
 
         </div>
@@ -121,7 +122,7 @@
 
                 <div class="carousel-caption">
 
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Hobby</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#hobbyrow" role="button">Hobby</a></p>
 
             </div>
         </div>
@@ -238,6 +239,23 @@
 
 
 </div>
+<footer id="sticky-footer" class=" bg-dark text-white-50 ">
+    <div class="container-fluid d-flex py-3">
+
+
+
+        <small class="p-2 flex-grow-1"> &copy; 2019 Lucky box</small>
+
+        <a class="pr-3" href="https://www.instagram.com/" target="_blank"><img src="ICONS/instaiconwhite-06.png" width="30" height="30"></a>
+
+        <a  class="pr-3" href="https://twitter.com/whattheboxgame?lang=en" target="_blank"><img src="ICONS/twitter.svg" width="30" height="30"></a>
+
+
+    </div>
+
+
+
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
