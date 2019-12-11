@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -48,11 +49,11 @@
 
 
 
-<!-- animation-->
+
 
 <!-- contact form -->
 
-<div class="container container-contact1 mt-10 ">
+<div  id=mainContainer class="container container-contact1 mt-10 ">
     <div class="row">
         <div class="col-md-6">
             <div class="form">
@@ -82,7 +83,7 @@
                         <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="short description"></textarea>
                     </div>
 
-                 <button class="btn" type="submit" value="submit">submit</button>
+                 <button id=buttonform class="btn" type="submit" value="submit">submit</button>
 
 
                 </form>
@@ -97,30 +98,40 @@
             <div class="container-fluid">
                 <div class="row d-flex flex-column">
 
-                        <div class=" d-flex flex-row">
-                            <div class="img-thumbnail  ">
+                        <div id="social" class=" d-flex flex-row">
+                            <div class="img-thumbnail">
                              <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/contact.png">
                             </div>
                              <div>
                                 <h3>Call us!</h3>
-                                <p>+32/4678/568/456</p>
+                                 <a href="tel:+1-303-499-7111">+1 (303) 499-7111</a>
                                 <p>Our customer service is available 24/7</p>
                              </div>
                         </div>
 
 
-                        <div class="d-flex flex-row">
+                        <div id="social" class="d-flex flex-row">
+
                             <div class="img-thumbnail">
                                 <img class="img-fluid" id="thumbnail"  alt="Responsive image" src="ICONS/social-01.png">
                             </div>
-                            <div class="email-info">
-                            <h3>Or send us an email</h3>
-                            <a href="mailto:info@lucky.box.com">Info@luckybox.com</a>
+                                <div class="email-info">
+                                    <h3>Or send us an email</h3>
+                                    <a href="mailto:info@lucky.box.com">Info@luckybox.com</a>
+                                </div>
                             </div>
+
+                            <div  id="social" class="map">
+                                <div class="map d-flex flex-row">
+                                    <div>
+                                        <h3>Pay us a visit!</h3>
+                                        <iframe  style="border:0" src="https://www.google.com/maps/embed/v1/place?q=area%2051&key=..."></iframe>
+                                    </div>
+                                </div>
                         </div>
-                </div>
+                 </div>
             </div>
-         </div>
+        </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

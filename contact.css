@@ -42,5 +42,22 @@ textarea{
     width: 20%;
 }
 
+.map{
+    width:80%
+}
 
 
+#mainContainer{
+    padding:4vmax;
+
+}
+
+#buttonform{
+    margin-bottom: 10vmax;
+}
+
+
+#social{
+    margin-bottom: 2vmax;
+    margin-left: 2vmax;
+}
