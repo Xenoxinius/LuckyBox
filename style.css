@@ -9,7 +9,7 @@
 
 }
 .parallax {
-  background: url("lb.jpg") ;
+  background: url("lb.jpg");
     background-size: 50%;
     background-attachment: fixed;
     height:400px;
@@ -20,30 +20,23 @@
 #information{
 
     font-size: larger;
-    color: darkred;
-    margin-bottom: 20px;
+    color: darkgray;
     width: 500px;
-<<<<<<< HEAD
     border-radius: 1%;
     border: darkred 3px solid;
     text-align: center;
     padding: 25px;
     align-content: center;
     margin: auto;
-=======
-    border-radius: 2%;
-    border: darkred 3px solid;
-    text-align: center;
-    align-content: center;
-    margin: auto;
-    padding: 25px;
->>>>>>> 9f067d68f86cdc3fc4fb47740bc3bead6dc0e344
+    background-color: darkred;
+
 
 }
 
 h1{
     font-size: 500%;
     color: white;
+    padding-top: 50px;
 }
 
 .btn {
@@ -56,23 +49,16 @@ h1{
     border-color: black;
     color: white;
 }
-#warning {
-    width: 500px;
-    border-radius: 1%;
-    border: darkred 3px solid;
-    text-align: center;
-    padding: 25px;
-    align-content: center;
-    margin: auto;
 
-}
+
 .container{
     margin-top: 50px;
 }
 .wrapper{
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 20px;
 }
 .hdr-2{
-    align-
+
 }
