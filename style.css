@@ -23,18 +23,27 @@
     color: darkred;
     margin-bottom: 20px;
     width: 500px;
+<<<<<<< HEAD
     border-radius: 1%;
     border: darkred 3px solid;
     text-align: center;
     padding: 25px;
     align-content: center;
     margin: auto;
+=======
+    border-radius: 2%;
+    border: darkred 3px solid;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+>>>>>>> 9f067d68f86cdc3fc4fb47740bc3bead6dc0e344
 
 }
 
 h1{
     font-size: 500%;
-
+    color: white;
 }
 
 .btn {
