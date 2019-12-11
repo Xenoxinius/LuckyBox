@@ -1,14 +1,14 @@
 
-
 form{
     margin-top: 5%;
     margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: lightgoldenrodyellow;
+    background-color: #2b2121;
     padding: 30px;
     text-align: center;
+    border: 1px solid black;
 }
 
 body{
