@@ -22,12 +22,20 @@
     font-size: larger;
     color: darkred;
     margin-bottom: 20px;
+    width: 500px;
+    border-radius: 2%;
+    border: darkred 3px solid;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+
 }
 
 h1{
     font-family: birch-std;
     font-size: 500%;
-
+    color: white;
 }
 
 .btn {
