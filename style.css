@@ -22,10 +22,17 @@
     font-size: larger;
     color: darkred;
     margin-bottom: 20px;
+    width: 500px;
+    border-radius: 1%;
+    border: darkred 3px solid;
+    text-align: center;
+    padding: 25px;
+    align-content: center;
+    margin: auto;
+
 }
 
 h1{
-    font-family: birch-std;
     font-size: 500%;
 
 }
@@ -42,12 +49,12 @@ h1{
 }
 #warning {
     width: 500px;
-    border-radius: 50%;
+    border-radius: 1%;
     border: darkred 3px solid;
     text-align: center;
+    padding: 25px;
     align-content: center;
     margin: auto;
-    padding: 25px;
 
 }
 .container{
