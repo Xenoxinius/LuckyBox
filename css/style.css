@@ -27,7 +27,7 @@
     align-content: center;
     background-color: darkred;
     margin-bottom: 10vmax;
-    
+
 
 
 }
@@ -121,3 +121,14 @@ padding: 25px;
 
     border-style: none;
 }
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+
+
+
