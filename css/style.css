@@ -27,7 +27,21 @@
     align-content: center;
     background-color: darkred;
     margin-bottom: 10vmax;
+
+
+
+
 }
+#blink{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+50%{
+    opacity: 0;
+
+}
+}
+
 
 .imagepar{
 
