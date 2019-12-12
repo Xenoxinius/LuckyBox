@@ -22,26 +22,37 @@
     color: seashell;
     width: 100%;
     text-align: center;
-    padding: 25px;
+    padding: 5vmax;
     align-content: center;
-
     background-color: darkred;
+    margin-bottom: 10vmax;
+
+
+}
+
+
+.rounded-circle{
+
+
+    border-color: #1b1e21;
+    border-style: solid;
 
 }
 
 h1{
     font-size: 500%;
     color: white;
-    padding-top: 12vmax;
+    padding-top: -12vmax;
+
 }
 
 .btn {
     background-color: darkred;
     color: white;
-    border-color: black;
+    border-color: #1b1e21;
 }
 .btn:hover{
-    background-color: gray;
+    background-color: #1b1e21;
     border-color: black;
     color: white;
 }
@@ -64,4 +75,10 @@ h1{
 
 .luckyboxtitle{
     padding-top: 5vmax;
+}
+
+.card{
+
+
+    border-style: none;
 }
