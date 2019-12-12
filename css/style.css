@@ -20,14 +20,14 @@
 
 #information{
 
-    color: seashell;
+    color: ghostwhite;
     width: 100%;
     text-align: center;
+    font-size: 2vmax;
     padding: 5vmax;
     align-content: center;
     background-color: darkred;
     margin-bottom: 10vmax;
-
 
 
 }
@@ -42,7 +42,7 @@
 }
 
 
-.imagepar{
+.imageparallax{
 
     width:40%;
 
@@ -68,17 +68,14 @@ h1{
 
 
 .titleBlack{
-background-color: black;
+    background-color: #222222;
     margin-top: -20px;
     width: 100vw;
-padding: 25px;
+    padding: 25px;
     color: white;
     font-weight: bold;
 
 }
-
-
-
 
 
 .container{
@@ -114,11 +111,9 @@ padding: 25px;
 }
 
 .card-title{
-    text-align: center;
+    font-weight: bolder;
 }
-.card-text{
-    text-align: center;
-}
+
 
 
 
