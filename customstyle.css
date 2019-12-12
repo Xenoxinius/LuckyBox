@@ -89,7 +89,7 @@ padding-right: 2vmax;
     margin: auto;
 }
 label {
-    color: #f5ffb1;
+
 }
 
 body{
@@ -98,3 +98,6 @@ body{
     background-size: 30%;
 }
 
+#boxtitle {
+    color: #f5ffb1;
+}
