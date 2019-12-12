@@ -27,8 +27,7 @@
     align-content: center;
     background-color: darkred;
     margin-bottom: 10vmax;
-
-
+    
 
 
 }
@@ -66,6 +65,18 @@ h1{
     text-align:center
 
 }
+
+
+.titleBlack{
+background-color: black;
+    margin-top: -20px;
+    width: 100vw;
+padding: 25px;
+    color: white;
+    font-weight: bold;
+
+}
+
 
 .btn {
     background-color: darkred;
