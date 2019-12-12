@@ -13,4 +13,4 @@ link to the website
 
 https://xenoxinius.github.io/LuckyBox/.
 
-![alt text](http://img/screenshotreadme)
+![screenshot website](http://img/screenshotreadme.png)
