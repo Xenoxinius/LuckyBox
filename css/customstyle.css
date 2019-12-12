@@ -6,8 +6,14 @@ body{
 
 }
 
+.bigcontain {
+    background-color: #3a3030;
+    opacity: 0.95;
+}
+
 .step1box{
-    background-color:rgb(43, 33, 33);opacity:0.8;
+    background-color: #3a3030;
+    opacity: 0.95;
 
 }
 
@@ -28,10 +34,12 @@ padding-right: 2vmax;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 50px;
-    background-color:rgb(43, 33, 33);opacity:0.8;
     margin-bottom: 30px;
     width: fit-content;
 
+}
+
+.stepalign {
 }
 
 .stepInfo {
@@ -48,7 +56,8 @@ color: whitesmoke;
 }
 
 #movierow, #snackrow, #hobbyrow {
-    background-color:rgb(43, 33, 33);opacity:0.8;
+    background-color: #3a3030;
+    opacity: 0.95;
     width: auto;
 }
 
