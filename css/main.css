@@ -15,8 +15,14 @@ font-weight: bolder;
     border:none;
 }
 
-nav{
+.navbar{
     margin-bottom: 3vmax;
+    background-color: black;!important;
+}
+
+.navbar-custom {
+    background-color: #222222;
+  color: white;
 }
 
 #carousel{
@@ -47,4 +53,9 @@ p{
 .title{
     font-weight: bolder;
     font-size: xx-large;
+}
+
+
+footer .bg-dark{
+    background-color: #222222;!important;
 }
