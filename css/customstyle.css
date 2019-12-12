@@ -126,3 +126,18 @@ color: whitesmoke;
 .carouselInfo{
     color: ghostwhite;
 }
+
+
+.hover12 figure {
+    background: #1abc9c;
+}
+
+.buttonChange input { display: none; }
+.buttonChange .seatButton { padding: 5px; border: 3px solid #ccc; }
+.buttonChange input:checked + .seatButton { background: #740716; }
+
+
+
+a:visited {
+    border: black 20px solid ;
+}
