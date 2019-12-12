@@ -1,6 +1,19 @@
 
+body{
+    background-image: url("../img/bg-1.jpg");
+    background-size: 40%;
+    background-position: center bottom;
+
+}
+
 .step1box{
-    background-color: #c1d1e8;
+    background-color:rgb(43, 33, 33);opacity:0.8;
+
+}
+
+.step1box p , h2{
+   color: whitesmoke;
+    font-weight: bold;
 }
 
 
@@ -11,8 +24,18 @@ padding-right: 2vmax;
 }
 
 .steptitle {
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 50px;
+    background-color:rgb(43, 33, 33);opacity:0.8;
+    margin-bottom: 30px;
+    width: fit-content;
+
+}
+
+.stepInfo {
+color: whitesmoke;
 }
 
 .stepcount {
@@ -22,6 +45,11 @@ padding-right: 2vmax;
 .stepdirection {
     color: #fff5c3;
     margin-bottom: 50px;
+}
+
+#movierow, #snackrow, #hobbyrow {
+    background-color:rgb(43, 33, 33);opacity:0.8;
+    width: auto;
 }
 
 #lootlist .row {
@@ -81,9 +109,6 @@ padding-right: 2vmax;
     margin: auto;
 }
 
-.carousel {
-    background-color: #c1d1e8;
-}
 
 #carouselExampleControls {
     margin: auto;
@@ -92,19 +117,11 @@ label {
 
 }
 
-body{
 
-    background-image: url("../img/background.jpg");
-    background-size: 30%;
+#carouselExampleControls .carousel-inner{
+    border: 5px solid black;
 }
 
-<<<<<<< HEAD:customstyle.css
-#boxtitle {
-    color: #f5ffb1;
+.submitbutton {
+    text-align: center;
 }
-=======
-#boxtitle{
-    color: white;
-}
-
->>>>>>> 1cff3d178586ef75f9406690018b027fa18e368d:css/customstyle.css
