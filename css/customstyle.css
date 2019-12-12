@@ -89,7 +89,7 @@ padding-right: 2vmax;
     margin: auto;
 }
 label {
-    color: #f5ffb1;
+
 }
 
 body{
@@ -98,7 +98,13 @@ body{
     background-size: 30%;
 }
 
+<<<<<<< HEAD:customstyle.css
+#boxtitle {
+    color: #f5ffb1;
+}
+=======
 #boxtitle{
     color: white;
 }
 
+>>>>>>> 1cff3d178586ef75f9406690018b027fa18e368d:css/customstyle.css
