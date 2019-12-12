@@ -27,7 +27,6 @@
     background-color: darkred;
     margin-bottom: 10vmax;
 
-
 }
 
 
@@ -41,8 +40,9 @@
 
 h1{
     font-size: 500%;
-    color: white;
+    color: wheat;
     padding-top: -12vmax;
+    text-align:center
 
 }
 
@@ -60,7 +60,10 @@ h1{
 
 .container{
     margin-top: 50px;
+
 }
+
+
 .wrapper{
     margin-left: 30px;
     margin-right: 30px;
