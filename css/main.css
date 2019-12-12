@@ -8,7 +8,8 @@ body{
 .titleRed{
 color: darkred;
 font-weight: bolder;
-    padding-right: 10vmax;
+
+    font-size: 5vmax;
 }
 
 .navbar-toggler{
