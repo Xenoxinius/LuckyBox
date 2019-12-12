@@ -32,6 +32,21 @@ textarea{
     margin-bottom: 10vmax;
 }
 
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+}
+.row{
+
+    padding: 0;
+    align-content: center;
+}
+
+.part1, .part2{
+    background-color: white;
+    padding: 5vw 5vw 0 5vw;
+
+}
 
 
 
