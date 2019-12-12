@@ -17,6 +17,7 @@
 
 
 }
+
 #information{
 
     color: seashell;
@@ -27,9 +28,29 @@
     background-color: darkred;
     margin-bottom: 10vmax;
 
+
+
+
+}
+#blink{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+50%{
+    opacity: 0;
+
+}
 }
 
 
+.imagepar{
+
+    width:40%;
+
+margin-left: 30%;
+    margin-top: 50px;
+
+}
 .rounded-circle{
 
 
@@ -68,6 +89,9 @@ h1{
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
+
+
+
 }
 
 
@@ -78,10 +102,11 @@ h1{
 
 .luckyboxtitle{
     padding-top: 5vmax;
+
+
 }
 
 .card{
-
 
     border-style: none;
 }
