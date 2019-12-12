@@ -9,16 +9,25 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="author" content="Imane, Steve, Samira, Moeti">
     <meta name="description" content="Subscription box that is fully customisable">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="../css/customstyle.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap-grid.min.css">
 
 </head>
 
 <body>
 <!-- navbar-->
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="../index.html">Lucky Box</a>
+=======
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="#">Lucky Box</a>
+>>>>>>> 19d39661bbd4897985e1e0f46e542ba46661a16b
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,21 +61,22 @@
 
   <!-- ///////////////////////////////////BEGINNING OF BOX SIZES -->
 
-<h1 id="boxtitle" class="text-center pb-4 pl-2">Customize your box</h1>
+<h1  class="text-center pb-4 pl-2 titleRed">Customize your box</h1>
 
 <div  class="container-fluid">
 <div class="ml-3">
 
-
+<div class="stepalign">
      <div class="container row steptitle">
          <h2 class="step stepcount"> Step 1</h2>
-         <h2 class="stepdirection"> choose your box size</h2>
+         <h2 class="stepInfo"> choose your box size</h2>
      </div>
+</div>
 </div>
 
 
 
-<div class="row mt-4 pb-5 justify-content-center">
+<div class="row mt-4 pb-3 justify-content-center">
     <!-- 3 large colums with text centered -->
     <div class="col-lg-3 col-md-4 col-sm-12 text-center step1box" >
         <!-- rounded circle zorgt dat img in cirkel gecropt wordt -->
@@ -97,7 +107,7 @@
 
     <div class="container row steptitle" id="2ndStep">
         <h2 class="step stepcount"> Step 2</h2>
-        <h2 class="stepdirection">Select the theme you like!</h2>
+        <h2 class="stepInfo">Select the theme you like!</h2>
     </div>
 </div>
 
@@ -105,7 +115,7 @@
 
 
 
-<div id="carouselExampleControls" class="carousel slide w-50" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide w-50 pb-3" data-ride="carousel">
     <div class="carousel-inner ">
         <div class="carousel-item active">
             <img class="d-block w-auto" src="../img/moviebanner.jpg" height="300px" alt="First slide">
@@ -114,7 +124,7 @@
                 </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-auto" src="../img/snackbanner.png" height="300px" width="100%" alt="Second slide">
+            <img class="d-block w-auto" src="../img/snackbanner2.png" height="300px"  alt="Second slide">
 
                 <div class="carousel-caption">
 
@@ -123,7 +133,7 @@
 
         </div>
         <div class="carousel-item">
-            <img class="d-block w-auto" src="../img/hobbybanner.jpg" height="300px" width="100%" alt="Third slide">
+            <img class="d-block w-auto" src="../img/hobbybanner2.jpg" height="300px"  alt="Third slide">
 
                 <div class="carousel-caption">
 
@@ -147,9 +157,9 @@
 <div class="ml-3">
     <div class="container row steptitle">
         <h2 class="step stepcount"> Step 3</h2>
-        <h2 class="stepdirection">Select your items!</h2>
+        <h2 class="stepInfo">Select your items!</h2>
     </div>
-        <h6 class="stepdirection"> it is possible to add items from multiple topics to your box!!</h6>
+
 </div>
 
 <div id="lootlist">
@@ -157,7 +167,7 @@
 
 
 
-    <div class="row" id="movierow">
+    <div class="row pt-3" id="movierow">
         <div class="hover01">
         <figure> <img src="../img/moviegadget1.jpg" width="200" height="200"> </figure>
             <div>
@@ -241,7 +251,9 @@
             </div>
         </div>
     </div>
-
+    <div class="submitbutton">
+    <p><a class="btn btn-primary " href="#2ndStep" role="button">SUBMIT</a></p>
+    </div>
 
 </div>
 
