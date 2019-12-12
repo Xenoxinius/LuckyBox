@@ -1,14 +1,16 @@
-#h1 LUCKY BOX
-Design a website for a startup
+# LUCKY BOX
 
-we created a website in 5 days for a fictional start up.
-this was created by Imane, Steve, Moeti and Samira.
+We Designed a website for a startup called Lucky box.
 
-The startup is called Lucky box. we provide subscription boxes that are fully customisable. we have three main categories: movie themed items, a wide variety of snacks and hobby and stationary items. 
+The website was created in 3 days.
+Created by Imane, Steve, Moeti and Samira.
 
-As our customer we give you the power to choose the items yourself to avoid recieving stuff that will end up in the trash eventually.
+They provide subscription boxes that are fully customisable. They have three main categories: movie themed items, a wide variety of snacks and hobby and stationary items. 
 
+they give you the power to choose the items yourself to avoid recieving stuff that will end up in the trash eventually.
 
 link to the website
 
 https://xenoxinius.github.io/LuckyBox/.
+
+![alt text](http://img/screenshotreadme)
