@@ -22,7 +22,7 @@
 <body>
 <!-- nav bar -->
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+<nav id="top" class="navbar navbar-expand-lg navbar-dark navbar-custom">
     <a class="navbar-brand" href="../index.html"><img src="../img/logo-white-01.png" alt="icon brand" width="100vw"/></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,25 +64,25 @@
                 <h1>Contact us!</h1>
                 <p> voice your concerns, or simply drop a nice comment.</p>
 
-                <input class="input1" name="name" placeholder="Name" type="text"/>
+                <input class="input1 pl-1" name="name" placeholder="Name" type="text"/>
                 <label  class="label-name"><span class="content-name"></span></label>
 
                 <div class="wrap-input1 required">
-                    <input class="input1" type="text" name="email" placeholder="Email">
+                    <input class="input1 pl-1" type="text" name="email" placeholder="Email">
                     <span></span>
                 </div>
 
 
 
-                <div class="wrap-input1 validate-input" data-validate="Subject is required">
-                    <input class="input1" type="text" name="subject" placeholder="Subject">
+                <div class="wrap-input1  validate-input" data-validate="Subject is required">
+                    <input class="input1 pl-1" type="text" name="subject" placeholder="Subject">
                     <span class="shadow-input1"></span>
                 </div>
 
 
                 <div class="form-group">
                     <label for="exampleTextarea"></label>
-                    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="short description"></textarea>
+                    <textarea class="form-control pl-1" id="exampleTextarea" rows="3" placeholder="short description"></textarea>
                 </div>
 
                 <button id=buttonform class="btn" type="submit" value="submit" >submit</button>
@@ -90,7 +90,7 @@
         </div>
         <div class="col-md-6 part2">
             <!--contact links-->
-            <img class="img-fluid img-thumbnail"  alt="Responsive image" src="../ICONS/social-02.png">
+            <img class="img-fluid "  alt="Responsive image" src="../ICONS/social1-02.png">
 
 
             <div>
@@ -105,7 +105,7 @@
             <div  class=" flex-row">
 
 
-                <img class="img-fluid img-thumbnail"  alt="Responsive image" src="../ICONS/social-01.png">
+                <img class="img-fluid"  alt="Responsive image" src="../ICONS/social2-01.png">
 
                 <div class="email-info">
                     <h3>Or send us an email</h3>
@@ -125,23 +125,21 @@
 </div>
 <!--footer-->
 
-<section class="footer">
+<footer class="footer sticky-footer">
 
-        <a href="#"><i class="fas fa-arrow-up"></i></a>
 
-        <footer id="sticky-footer" class=" bg-dark text-white-50">
-            <div class="container-fluid d-flex py-3">
+    <div class="container-fluid d-flex py-0 align-items-end">
 
-                <small class="p-2 flex-grow-1"> &copy; 2019 Lucky box</small>
+        <p class=" flex-grow-1 py-3"> &copy; 2019 Lucky box &nbsp; &nbsp; <span class=" mr-auto pr-3"><a href="#top">Back to top</a></span></p>
 
-                <a class="pr-3" href="https://www.instagram.com/" target="_blank"><img src="../ICONS/instaiconwhite-06.png" width="30" height="30" alt="insta icon"></a>
+        <a class="py-4 pr-4" href="https://www.instagram.com/" target="_blank"><img src="../ICONS/instaiconwhite-06.png" width="30" height="30"></a>
 
-                <a  class="pr-3" href="https://twitter.com/whattheboxgame?lang=en" target="_blank"><img src="../ICONS/twitter.svg" width="30" height="30" alt="twitter icon"></a>
+        <a  class="py-4 pr-4" href="https://twitter.com/whattheboxgame?lang=en" target="_blank"><img src="../ICONS/twitter.svg" width="30" height="30"></a>
 
-            </div>
+    </div>
 
-        </footer>
-</section>
+
+</footer>
 <!-- scripts for bootstrap-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
