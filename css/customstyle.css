@@ -13,6 +13,8 @@ body{
 }
 
 
+
+
 .step1box p , h2 {
    color: whitesmoke;
     font-weight: bold;
@@ -51,17 +53,18 @@ color: whitesmoke;
     margin-bottom: 50px;
 }
 
-#movierow, #snackrow, #hobbyrow {
-    background-color: #3a3030;
-    opacity: 0.95;
-    width: auto;
-}
+
 
 #lootlist .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px 0 50px;
     margin: auto;
+}
+
+#lootlist {
+    background-color: #3a3030;
+    opacity: 0.95;
 }
 
 
