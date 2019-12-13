@@ -1,4 +1,7 @@
 
+
+
+
 .container2{
     max-width: 100%;
     margin: 0 auto;
@@ -26,8 +29,13 @@
     font-size: 2vmax;
     padding: 5vmax;
     align-content: center;
-    background-color: darkred;
+
     margin-bottom: 10vmax;
+    background-color:
+            #3a3030;
+    opacity: 0.95;
+    width: 100%;
+}
 
 
 }
