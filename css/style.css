@@ -114,7 +114,9 @@ h1{
     font-weight: bolder;
 }
 
-
+.card-text{
+    align:center;
+}
 
 
 
