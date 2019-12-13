@@ -14,3 +14,10 @@ link to the website
 https://xenoxinius.github.io/LuckyBox/.
 
 ![screenshot website](https://raw.githubusercontent.com/Xenoxinius/LuckyBox/master/img/screenshotreadme.png)
+
+
+USER STORIES
+
+As a user, I want to be able to order a specialized lootbox without any issues regarding site functionality, so I can buy items on the website without any confusion
+
+as a developer, I want to create a webpage with perfect functionality so my users can access all information without any problems
