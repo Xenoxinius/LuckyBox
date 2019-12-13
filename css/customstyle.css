@@ -15,7 +15,7 @@ body{
 
 
 
-.step1box p , h2 {
+.step1box p , h2, h4 {
    color: whitesmoke;
     font-weight: bold;
 }

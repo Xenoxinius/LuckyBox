@@ -12,11 +12,12 @@
 
 }
 .parallax {
-  background: url("../img/IMG_0122.gif");
+  background: url("../img/box2.jpg");
     background-size: 50%;
     background-attachment: fixed;
     height:400px;
-    image-resolution: 30dpi;
+    
+    
 
 
 }
