@@ -9,6 +9,7 @@ body{
 .bgcontainer {
     background-color: #3a3030;
     opacity: 0.95;
+    border: 5px solid #fff9e7;
 
 }
 
@@ -117,3 +118,9 @@ a:visited {
     border: black 20px solid ;
 }
 
+.customize{
+
+
+   color: #fff9e7;
+    
+}
